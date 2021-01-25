@@ -1,0 +1,60 @@
+*{ margin:0; padding: 0; font-family: 'Exo 2', sans-serif;}
+
+header{
+	width: 100%;
+	height: 100vh;
+	
+	}
+
+.navsection{
+	width: 100% height: 20vh; background-color: indigo;
+	display: flex; justify-content: space-around;
+	align-items: center;
+
+}
+
+.logo{
+	width: 40%;
+	
+}
+
+.logo{
+	 text-transform: uppercase;
+	 font-size : 1.6rem;
+}
+
+nav{
+	width:60%;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a{
+	text-decoration:none;
+	color: #000;
+	font-weight: 1500;
+	font-size: 20px;
+	position: relative; 
+	transition: all .2s ;
+}
+
+nav a:hover{
+	transform: scale(1.2);
+}
+
+main{
+	height:80vh;
+	display: flex;
+	justify-content: center;
+	text-align: bottom;
+}
+
+.upperside{
+       position: relative;
+       top: 40px;
+}
+
+.lowerside{
+	position: relative;
+	top:100px;
+}
